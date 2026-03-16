@@ -30,8 +30,8 @@ Run
 bashpython options_pricing_tool.py
 Customise Parameters
 Edit the five variables at the bottom of the script:
-pythonS     = 150.0   # Current stock price ($)
-K     = 155.0   # Strike price ($)
+pythonS     = 150.0   # Current stock price $
+K     = 155.0   # Strike price $
 T     = 0.25    # Time to expiry in years (0.25 = 3 months)
 r     = 0.05    # Risk-free interest rate (0.05 = 5%)
 sigma = 0.25    # Implied volatility (0.25 = 25%)
