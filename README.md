@@ -57,14 +57,7 @@ The Black-Scholes formula prices a European option under these assumptions:
 
 The underlying follows a log-normal random walk
 No dividends, no early exercise
-Constant volatility and risk-free rate
-
-Call price:
-C=S⋅N(d1)−Ke−rT⋅N(d2)C = S \cdot N(d_1) - K e^{-rT} \cdot N(d_2)C=S⋅N(d1​)−Ke−rT⋅N(d2​)
-Put price:
-P=Ke−rT⋅N(−d2)−S⋅N(−d1)P = K e^{-rT} \cdot N(-d_2) - S \cdot N(-d_1)P=Ke−rT⋅N(−d2​)−S⋅N(−d1​)
-Where:
-d1=ln⁡(S/K)+(r+σ22)TσT,d2=d1−σTd_1 = \frac{\ln(S/K) + (r + \frac{\sigma^2}{2})T}{\sigma\sqrt{T}}, \quad d_2 = d_1 - \sigma\sqrt{T}d1​=σT​ln(S/K)+(r+2σ2​)T​,d2​=d1​−σT​
+Constant volatility and risk-free rate​
 
 🗂️ Project Structure
 options-pricing-tool/
